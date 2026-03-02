@@ -2,7 +2,7 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,jsx}"
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
@@ -10,7 +10,7 @@ export default {
         brand: {
           pink: "#ff00ff",
           cyan: "#00ffff",
-          dark: "#0a0a0a"
+          dark: "#0a0a0a",
         }
       }
     }
